@@ -1,6 +1,6 @@
 ---
 id: mission_writing
-title: document number 2
+title: Mission Writing
 ---
 
 This is a link to [another document.](/docs/en/doc3.md)  

@@ -1,13 +1,14 @@
 {
   "docs": {
-    "Get Started": ["getting_started"],
-    "First Category": ["doc4"],
-    "Second Category": ["doc5"]
+    "Overview": ["overview", "glossary", "getting_started", "starting_flight"],
+    "Clients": [],
+    "Cores": ["core_layouts"]
+
   },
   "mission_writing": {
-    "First Category": ["mission_writing"]
+    "Mission Writing": ["mission_writing"]
   },
   "developers": {
-    "Thing":["developers"]
+    "Developers":["developers"]
   }
 }
