@@ -7,7 +7,7 @@ script:
   - cd website && npm run build
 deploy:
   provider: surge
-  project: ./build/thorium
+  project: ./website/build/thorium
   domain: thoriumsim.com
   skip_cleanup: true
 
