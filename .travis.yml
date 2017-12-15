@@ -10,4 +10,3 @@ deploy:
   project: ./website/build/thorium
   domain: thoriumsim.com
   skip_cleanup: true
-
