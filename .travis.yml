@@ -4,7 +4,7 @@ node_js:
 dist: trusty
 sudo: false
 script:
-  - cd website && npm run build
+  - cd website && npm install && npm run build
 deploy:
   provider: surge
   project: ./website/build/thorium
