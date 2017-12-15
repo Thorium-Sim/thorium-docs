@@ -1,0 +1,123 @@
+/* your custom css */
+
+.sides {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.homeSplashFade img {
+  width: 10vw;
+}
+.homeSplashFade {
+  background-image: url(/img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+}
+.homeSplashFade h2, .homeSplashFade a.button {
+  color: #eee;
+  border-color: #eee;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+}
+body, .mainContainer, .productShowcaseSection, .container {
+  background-color: #333;
+  color: #ddd;
+}
+a, .button {
+  color: #B99BD8;
+  border-color: #B99BD8;
+}
+h1, .productShowcaseSection h2, .container .wrapper h2 {
+  color: #B99BD8;
+}
+.container .wrapper h2 {
+  font-size: 34px;
+}
+.container.lightBackground {
+  background-color: #444;
+  color: #eee;
+}
+.container.darkBackground {
+  background-color: #222;
+}
+
+footer.nav-footer {
+  background-color: #111;
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .sides div {
+    flex: 1;
+  }
+  .sides .users {
+    flex: 2;
+  }
+}
+.rotating {
+  perspective: 10000px;
+  position: relative;
+  text-align: center;
+}
+
+@keyframes apple {
+  from {  transform: rotateY(0deg) translateZ(100px);
+  }
+  to {  transform: rotateY(360deg) translateZ(100px);
+  }
+}
+
+@keyframes windows {
+  from {  transform: rotateY(-120deg) translateZ(100px);
+  }
+  to {  transform: rotateY(240deg) translateZ(100px);
+  }
+}
+
+@keyframes linux {
+  from {  transform: rotateY(120deg) translateZ(100px);
+  }
+  to {  transform: rotateY(480deg) translateZ(100px);
+  }
+}
+.sizeBlock {
+  max-width: 500px;
+  flex: 0 1 500px;
+  height: 300px;
+}
+.rotating img {
+  width: 300px;
+  position: absolute;
+  transform-style: preserve-3d;  
+}
+.rotating .apple, .rotating .windows, .rotating .linux {
+  backface-visibility: hidden;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;  
+}
+.rotating .apple {
+  animation-name: apple;
+}
+.rotating .windows {
+  animation-name: windows;
+}
+.rotating .linux {
+  animation-name: linux;
+}
+.imageAlignSide .blockImage{
+  max-width: 300px;
+  flex: 0 1 300px;
+}
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+

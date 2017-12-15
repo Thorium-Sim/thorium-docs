@@ -1,0 +1,128 @@
+<html><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/><title>Blog · Thorium</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta property="og:title" content="Blog · Thorium"/><meta property="og:type" content="website"/><meta property="og:url" content="https://thoriumsim.com/index.html"/><meta property="og:description" content="Next Generation Simulator Controls"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://thoriumsim.com/blog/atom.xml" title="Thorium Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://thoriumsim.com/blog/feed.xml" title="Thorium Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><link rel="stylesheet" href="/css/main.css"/></head><body><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/thorium.svg"/><h2 class="headerTitle">Thorium</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li><a href="/docs/doc1.html" target="_self">Docs</a></li><li><a href="/docs/doc4.html" target="_self">API</a></li><li><a href="/en/help.html" target="_self">Help</a></li><li><a href="/blog" target="_self">Blog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Recent Posts</span></h2></div><div class="navGroups"><div class="navGroup navGroupActive"><h3>Recent Posts</h3><ul><li class="navListItem"><a class="navItem" href="/blog/2017/12/09/update-24.html">Update 24 - It&#x27;s almost like the ship fixes itself! ♻️</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/11/24/update-23.html">Update 23 - Map Making 🗺</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/11/04/update-22.html">Update 22 - Here we go again 💣💥</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/10/28/update-21.html">Update 21 - Caching. It&#x27;s kinda like what hamsters do with their cheeks. 🐹</a></li><li class="navListItem"><a class="navItem" href="/blog/2017/10/21/update-20.html">Update 20 - No More Crashes 💥</a></li></ul></div></div></section></div><script>
+          var toggler = document.getElementById('navToggler');
+          var nav = document.getElementById('docsNav');
+          toggler.onclick = function() {
+            nav.classList.toggle('docsSliderActive');
+          };
+        </script></nav></div><div class="container mainContainer documentContainer postContainer blogContainer"><div class="wrapper"><div class="posts"><div class="post"><header class="postHeader"><h1><a href="/blog/2017/09/09/update-14.html">Update 14 - Isopanels and client kiosks</a></h1><p class="post-meta">September 9, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Did some fixes to the asset system</li>
+<li>Finished the 'Set Army Contact' macro</li>
+<li>Built a basic isochip panel control. It shows the state of the chips and, if a panel is built and programmed right, can be integrated with hardware.</li>
+<li>Added a feature for clients using the kiosk application to auto-connect to Thorium.</li>
+<li>Made some fixes for the server bundler</li>
+<li>Added actions for shutdown, quit, and freak (moving the mouse). Those only work on clients running the kiosk</li>
+<li>Fixed bugs (shield rotation, merging power distribution, etc.)</li>
+<li>Added timeline to the default core layout as a slide-in panel.</li>
+<li>Started working on a card for docking control.</li>
+</ul>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/09/02/update-13.html">Update 13 - Cut out the jibber-jabber</a></h1><p class="post-meta">September 2, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Completed the instant messaging system, including messages to groups, such as security, damage, and medical.</li>
+<li>Refactored the bundler system to no longer use Electron. This fixes a lot of problems, and the negative impact is minimal. Instead of running a window, it starts a terminal session. That's about it.</li>
+<li>Added a system for adding notifications to widgets, in this case for messaging.</li>
+<li>Implemented auto-login for stations</li>
+<li>Started working on a Army Contacts timeline macro</li>
+</ul>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/08/26/update-12.html">Update 12 - Tests, tests, and more tests</a></h1><p class="post-meta">August 26, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Ran a test flight on August 19 and collected bugs. This week I fixed all the bugs. The list of bugs is <a href="https://github.com/Thorium-Sim/thorium/issues/214">here</a></li>
+<li>Implemented a 'Blackout' station, for computer screens that you want to be blacked out</li>
+<li>Started working on the instant messaging system</li>
+</ul>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/08/19/update-11.html">Update 11 - We got 100 problems, but issue tracking ain&#x27;t one of them</a></h1><p class="post-meta">August 19, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Made it so Thorium can be bundled with assets. This will make it easier to distribute Thorium to donors.</li>
+<li>Added training mode! Training mode is shown on single pages at a time. When you start training mode, you see an overlay explaining how different parts of the screen work. Current, Thorium only has training mode for the engine control screen, but more traning is being written and will be released as time goes on.</li>
+<li>Various bug and layout fixes</li>
+<li>Added the issue tracker back to the Main screen and to the core, so Flight Directors can file issues directly to the Thorium repository</li>
+<li>Added the contributors to the bottom of the repository. <a href="https://github.com/Thorium-Sim/thorium#contributors">Check it out!</a> Without these contributors, Thorium would never have gotten to where it is today. If you have contributed in any way and haven't been recognized, <a href="https://github.com/Thorium-Sim/thorium/issues/new">let me know</a>. And if you are interested in contributing, get in touch! There is a lot to do that doesn't just involve code.</li>
+<li>Changed the targeting grid to use DOM instead of Canvas. This makes it easier to use any kind of image on the targeting grid, same as with the sensors.</li>
+<li>Reworked the timeline system. There is a new Core module for the timeline that allows you to preview the timeline and execute timeline steps. Also, timeline step actions have to be pre-defined as components before they can be configured. Currently, only Sensor Presets have been defined in this way, but more are coming.</li>
+<li>Improved the asset system to allow for mass-upload of assets.</li>
+<li>Improved loading of the core layout. It now selects the simulator if there is only one on a flight, or it makes it more obvious for the flight director to select their simulator.</li>
+</ul>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/08/12/update10.html">Update 10 - I&#x27;m Free!</a></h1><p class="post-meta">August 12, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><h1><a class="anchor" aria-hidden="true" name="thorium-is-now-open-source"></a><a href="#thorium-is-now-open-source" aria-hidden="true" class="hash-link" ><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Thorium is now Open Source!</h1>
+<p>That's right. Everything in Thorium is now Libre, which means you can do whatever you want with it. Make your own controls, contribute back, run your own simulator - the sky is the limits. Actually, the sky is no longer the limits, since you have your own starship!</p>
+<p>Thorium now supports a donation model. By becoming a donor, you get access to a drop-in built version of Thorium. <a href="https://thoriumsim.com/download/">Consider becoming a donor.</a></p>
+<p>As far as upates go:</p>
+<ul>
+<li>Released the new site. Check it out, and feel free to donate.</li>
+<li>Updated package dependencies.</li>
+<li>Refactored a lot of the code to simplify and clean it up.</li>
+<li>Created a simple viewscreen module. You can now show stuff on a dedicated viewscreen client. There are a lot of opportunities for budding programmers to create screens for the viewscreen. Get in touch if you are interested.</li>
+<li>Started working on improvements to the timeline system</li>
+<li>Added a naïve auto-save feature. It takes a snapshot of the simulator state every 10 seconds. There is no support for going back to specifc saves or rewinding currently, but that feature is planned for the future.</li>
+</ul>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/08/05/update-9.html">Update 9 - Squashin&#x27; Bugs</a></h1><p class="post-meta">August 5, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><p>This week has been spent on a number of side project, including an exciting announcement (stay tuned!) so there weren't as much progress on Thorium. Regardless, there are a few updates:</p>
+<ul>
+<li>Bug fixes for:
+<ul>
+<li>Shields</li>
+<li>Navigation</li>
+<li>Core</li>
+<li>Thrusters</li>
+<li>Damage Teams</li>
+<li>Comm</li>
+<li>Power Distribution</li>
+<li>Probe Control</li>
+<li>Sensors</li>
+<li>Transporters</li>
+<li>Internal Scanning</li>
+</ul></li>
+<li>Add Flow Typing for static type checking</li>
+<li>Add local fonts so Thorium can run 100% offline</li>
+</ul>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/07/29/update-8.html">Update 8 - Little Space Robots and Boom Boom Sticks</a></h1><p class="post-meta">July 29, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Completed the probe network card and core.</li>
+<li>Completed the self-destruct card and core.</li>
+<li>Completed the probe control card and core.</li>
+<li>Completed the reactor card and core.</li>
+</ul>
+<p>As a reminder, I'm starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/07/22/update-7.html">Update 7 - She has the gift: She sees Things</a></h1><p class="post-meta">July 22, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Added sensor nudge buttons to move all contacts</li>
+<li>Added sensor yaw buttons to rotate contacts around the center</li>
+<li>Added the 'Ask For Speed' dropdown when moving sensor contacts</li>
+<li>Added 'Sensor Ping' which make sensors work like sonar. You can pick between 'Active', 'Passive', or 'Manual' sensors and 'Ping' to see what's on the grid.</li>
+<li>Added sensor scan presets</li>
+<li>Started working on the probe network card.</li>
+</ul>
+<p>As a reminder, I'm starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/07/15/update-6.html">Update 6 - Jester Tester</a></h1><p class="post-meta">July 15, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Refactored the sensors system to use a DOM based rendering as opposed to a Canvas based or ThreeJS based rendering. It's more straightforward and seems to work just fine. The code for both of the other rendering methods is still in the repo, so it can be reused easily.</li>
+<li>Switched to using the Jest testing framework. It executes tests faster and provides more features than Mocha, which was being used before.</li>
+</ul>
+<p>As an extra note, I'm starting a WebDev Guild. There is an advancement guide available on the <a href="https://github.com/alexanderson1993/webdev-guild">GitHub Repo</a>.</p>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1><a href="/blog/2017/07/07/update-5.html">Update 5 - Flight Deck Ready for Take-off</a></h1><p class="post-meta">July 7, 2017</p><div class="authorBlock"><p class="post-authorName"><a href="http://twitter.com/ralex1993" target="_blank">Alex Anderson</a></p><div class="authorPhoto"><a href="http://twitter.com/ralex1993" target="_blank"><img src="https://graph.facebook.com/764853781/picture/?height=200&amp;width=200"/></a></div></div></header><article class="post-content"><div><span><ul>
+<li>Major refactor of the control room system
+<ul>
+<li>Removed the top tab-bar for the 'control room' screen.</li>
+<li>Refactored and completed the simulator config for pre-defining template simulators with stations, cards, systems, decks, etc.</li>
+<li>Refactored the flight initiation process to simplify it.</li>
+<li>Simplified the initial landing page.</li>
+</ul></li>
+<li>Implemented 'Sets', or pre-defined simulator client configurations.
+<ul>
+<li>This makes it possible to automatically start up all of the stations on the screens which they are supposed to be on for the flight.</li>
+</ul></li>
+<li>Implemented an 'Alert Condition' card</li>
+<li>Added icons for all currently developed cards.</li>
+</ul>
+<p>That's it for this week. Be sure to file any feature requests on the <a href="https://github.com/Thorium-Sim/thorium/issues">Github repo</a>. You can also download the latest <a href="https://github.com/Thorium-Sim/thorium/releases">alpha</a> and see the current <a href="https://github.com/Thorium-Sim/thorium/projects/2">roadmap</a>.</p>
+<p>Alex</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev" href="/blog/">← Prev</a><a class="docs-next" href="/blog/page3/">Next →</a></div></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/thorium.svg" alt="Thorium" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/getting_started.html">Getting Started</a><a href="/docs/en/mission_writing.html">Mission Writing</a><a href="/docs/en/developers.html">Developers</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="https://discord.gg/dxRusCc">Project Chat</a><a href="https://twitter.com/thoriumsim" target="_blank">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/thorium-sim/thorium">GitHub</a><a class="github-button" href="https://github.com/thorium-sim/thorium" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><a href="https://fyreworks.us/" target="_blank" class="fbOpenSource"><img src="/img/oss_logo.svg" alt="Fyreworks" width="170" height="45"/></a><section class="copyright">Copyright © 2017 Fyreworks LLC.</section></footer></div></body></html>

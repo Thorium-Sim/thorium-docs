@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+dist: trusty
+sudo: false
+script:
+  - cd website && npm run build
+deploy:
+  provider: surge
+  project: ./build/thorium
+  domain: thoriumsim.com
+  skip_cleanup: true
+

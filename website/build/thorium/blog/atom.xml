@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://thoriumsim.com/blog</id>
+    <title>Thorium Blog</title>
+    <updated>2017-12-09T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://thoriumsim.com/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Thorium news and events.</subtitle>
+    <logo>https://thoriumsim.comimg/thorium.svg</logo>
+    <rights>Copyright © 2017 Fyreworks</rights>
+    <entry>
+        <title type="html"><![CDATA[Update 24 - It's almost like the ship fixes itself! ♻️]]></title>
+        <id>https://thoriumsim.com/blog/2017/12/09/update-24.html</id>
+        <link href="https://thoriumsim.com/blog/2017/12/09/update-24.html">
+        </link>
+        <updated>2017-12-09T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Fixed additional bugs discovered during a test flight.
+- Added React error boundaries. This makes it so if there is a critial error that breaks the entire screen, it will cause the screen to go to an in-universe error screen, tailored to the layout]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 23 - Map Making 🗺]]></title>
+        <id>https://thoriumsim.com/blog/2017/11/24/update-23.html</id>
+        <link href="https://thoriumsim.com/blog/2017/11/24/update-23.html">
+        </link>
+        <updated>2017-11-24T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Fixed some bugs in the asset uploads
+- Added a sound engine for playing sound effects on the stations
+- Reset Flight button
+- Fixed errors from the refactor
+- Finished up training for all cards
+- Added a download link for Thorium Client on the clie]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 22 - Here we go again 💣💥]]></title>
+        <id>https://thoriumsim.com/blog/2017/11/04/update-22.html</id>
+        <link href="https://thoriumsim.com/blog/2017/11/04/update-22.html">
+        </link>
+        <updated>2017-11-04T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Added a check to make sure the engine heat doesn't bog down the rest of the ship
+- Did a major refactor by updating nearly all of the packages to the latest version. This required me to remove all 3D views, including the thrusters, main reactor, an]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 21 - Caching. It's kinda like what hamsters do with their cheeks. 🐹]]></title>
+        <id>https://thoriumsim.com/blog/2017/10/28/update-21.html</id>
+        <link href="https://thoriumsim.com/blog/2017/10/28/update-21.html">
+        </link>
+        <updated>2017-10-28T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Added an asset caching mechanism. This allows me to pre-load large video files for the Viewscreen so I can switch viewscreen videos instantly.
+- Added a videos card to the viewscreen, including a macro for timelines
+- Added stealth/cloaking device ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 20 - No More Crashes 💥]]></title>
+        <id>https://thoriumsim.com/blog/2017/10/21/update-20.html</id>
+        <link href="https://thoriumsim.com/blog/2017/10/21/update-20.html">
+        </link>
+        <updated>2017-10-21T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Finished up Junior Controls:
+  - Added engineering station with mini-games to fix the ship
+  - Created Junior simulator (Vangaurd) with the controls configured properly
+- Added inventory management config screen
+- Fixed some errors that caused the ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 19 - Training Wheels 🚲]]></title>
+        <id>https://thoriumsim.com/blog/2017/10/12/update-19.html</id>
+        <link href="https://thoriumsim.com/blog/2017/10/12/update-19.html">
+        </link>
+        <updated>2017-10-12T06:00:00Z</updated>
+        <summary type="html"><![CDATA[I'm on vacation this weekend, and won't be getting much done, so here's the summary of the past few days:
+
+- Did more work on the junior controls. Added the following cards:
+  - Ops, with transporters and tractor beam,
+  - Sensors,
+  - Communications]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 18 - Self-driving Viewscreen 📺]]></title>
+        <id>https://thoriumsim.com/blog/2017/10/07/update-18.html</id>
+        <link href="https://thoriumsim.com/blog/2017/10/07/update-18.html">
+        </link>
+        <updated>2017-10-07T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Added more viewscreens
+  - Planetary Scan
+  - Shield Monitoring
+  - Course Calculation
+  - Ship Views
+  - Stealth Viewscreen
+  - Communications
+  - Stars
+- Made it so the viewscreen could auto-switch based on the current state of the simulator
+- Ad]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 17 - Look out the window! 🌅]]></title>
+        <id>https://thoriumsim.com/blog/2017/09/30/update-17.html</id>
+        <link href="https://thoriumsim.com/blog/2017/09/30/update-17.html">
+        </link>
+        <updated>2017-09-30T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Refactored the subscription system to hopefully handle multiple clients better
+- Added the ability to export and import missions and their macros
+- Made various bug fixes, such as sorting the deck and room dropdowns, making widgets more prominent, ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 16 - Helpful Penguin Mode 🐧]]></title>
+        <id>https://thoriumsim.com/blog/2017/09/23/update-16.html</id>
+        <link href="https://thoriumsim.com/blog/2017/09/23/update-16.html">
+        </link>
+        <updated>2017-09-23T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Added more training to the stations. Training is shown on screen, showing individual controls step-by-step
+- Added a macro for sending long range comm messages
+- Added core notifications, with text-to-speech announcements and the ability to disable]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 15 - Flyswatter, round 2]]></title>
+        <id>https://thoriumsim.com/blog/2017/09/16/update-15.html</id>
+        <link href="https://thoriumsim.com/blog/2017/09/16/update-15.html">
+        </link>
+        <updated>2017-09-16T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- A bunch of bug fixes for a number of things. The full list is [here](https://github.com/Thorium-Sim/thorium/issues/223).
+- Added a generic heat core
+- Added a core for security decks
+- Finished the shuttle bay card.
+- Finished a status card, which ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 14 - Isopanels and client kiosks]]></title>
+        <id>https://thoriumsim.com/blog/2017/09/09/update-14.html</id>
+        <link href="https://thoriumsim.com/blog/2017/09/09/update-14.html">
+        </link>
+        <updated>2017-09-09T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Did some fixes to the asset system
+- Finished the 'Set Army Contact' macro
+- Built a basic isochip panel control. It shows the state of the chips and, if a panel is built and programmed right, can be integrated with hardware.
+- Added a feature for ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 13 - Cut out the jibber-jabber]]></title>
+        <id>https://thoriumsim.com/blog/2017/09/02/update-13.html</id>
+        <link href="https://thoriumsim.com/blog/2017/09/02/update-13.html">
+        </link>
+        <updated>2017-09-02T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Completed the instant messaging system, including messages to groups, such as security, damage, and medical.
+- Refactored the bundler system to no longer use Electron. This fixes a lot of problems, and the negative impact is minimal. Instead of run]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 12 - Tests, tests, and more tests]]></title>
+        <id>https://thoriumsim.com/blog/2017/08/26/update-12.html</id>
+        <link href="https://thoriumsim.com/blog/2017/08/26/update-12.html">
+        </link>
+        <updated>2017-08-26T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Ran a test flight on August 19 and collected bugs. This week I fixed all the bugs. The list of bugs is [here](https://github.com/Thorium-Sim/thorium/issues/214)
+- Implemented a 'Blackout' station, for computer screens that you want to be blacked ou]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 11 - We got 100 problems, but issue tracking ain't one of them]]></title>
+        <id>https://thoriumsim.com/blog/2017/08/19/update-11.html</id>
+        <link href="https://thoriumsim.com/blog/2017/08/19/update-11.html">
+        </link>
+        <updated>2017-08-19T06:00:00Z</updated>
+        <summary type="html"><![CDATA[- Made it so Thorium can be bundled with assets. This will make it easier to distribute Thorium to donors.
+- Added training mode! Training mode is shown on single pages at a time. When you start training mode, you see an overlay explaining how differ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 10 - I'm Free!]]></title>
+        <id>https://thoriumsim.com/blog/2017/08/12/update10.html</id>
+        <link href="https://thoriumsim.com/blog/2017/08/12/update10.html">
+        </link>
+        <updated>2017-08-12T06:00:00Z</updated>
+        <summary type="html"><![CDATA[# Thorium is now Open Source! 
+
+That's right. Everything in Thorium is now Libre, which means you can do whatever you want with it. Make your own controls, contribute back, run your own simulator - the sky is the limits. Actually, the sky is no longe]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 9 - Squashin' Bugs]]></title>
+        <id>https://thoriumsim.com/blog/2017/08/05/update-9.html</id>
+        <link href="https://thoriumsim.com/blog/2017/08/05/update-9.html">
+        </link>
+        <updated>2017-08-05T06:00:00Z</updated>
+        <summary type="html"><![CDATA[This week has been spent on a number of side project, including an exciting announcement (stay tuned!) so there weren't as much progress on Thorium. Regardless, there are a few updates:
+
+* Bug fixes for:
+  * Shields
+  * Navigation
+  * Core
+  * Thrust]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 8 - Little Space Robots and Boom Boom Sticks]]></title>
+        <id>https://thoriumsim.com/blog/2017/07/29/update-8.html</id>
+        <link href="https://thoriumsim.com/blog/2017/07/29/update-8.html">
+        </link>
+        <updated>2017-07-29T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Completed the probe network card and core.
+* Completed the self-destruct card and core.
+* Completed the probe control card and core.
+* Completed the reactor card and core.
+
+As a reminder, I'm starting a WebDev Guild. There is an advancement guide a]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 7 - She has the gift: She sees Things]]></title>
+        <id>https://thoriumsim.com/blog/2017/07/22/update-7.html</id>
+        <link href="https://thoriumsim.com/blog/2017/07/22/update-7.html">
+        </link>
+        <updated>2017-07-22T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Added sensor nudge buttons to move all contacts
+* Added sensor yaw buttons to rotate contacts around the center
+* Added the 'Ask For Speed' dropdown when moving sensor contacts
+* Added 'Sensor Ping' which make sensors work like sonar. You can pick ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 6 - Jester Tester]]></title>
+        <id>https://thoriumsim.com/blog/2017/07/15/update-6.html</id>
+        <link href="https://thoriumsim.com/blog/2017/07/15/update-6.html">
+        </link>
+        <updated>2017-07-15T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Refactored the sensors system to use a DOM based rendering as opposed to a Canvas based or ThreeJS based rendering. It's more straightforward and seems to work just fine. The code for both of the other rendering methods is still in the repo, so it ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 5 - Flight Deck Ready for Take-off]]></title>
+        <id>https://thoriumsim.com/blog/2017/07/07/update-5.html</id>
+        <link href="https://thoriumsim.com/blog/2017/07/07/update-5.html">
+        </link>
+        <updated>2017-07-07T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Major refactor of the control room system
+    - Removed the top tab-bar for the 'control room' screen.
+    - Refactored and completed the simulator config for pre-defining template simulators with stations, cards, systems, decks, etc.
+    - Refacto]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 4 - Big Guns and What to do if you get shot!]]></title>
+        <id>https://thoriumsim.com/blog/2017/07/01/update-4.html</id>
+        <link href="https://thoriumsim.com/blog/2017/07/01/update-4.html">
+        </link>
+        <updated>2017-07-01T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Created a core component for managing and importing crew from CSV
+* Created security teams card
+* Created damage teams card
+* Damage reports are now processed to replace hashed keys for parts, reactivation codes, etc.
+* Added reactivation codes. It]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 3 - Scrambling the Alpha Matrix is Go]]></title>
+        <id>https://thoriumsim.com/blog/2017/06/24/update-3.html</id>
+        <link href="https://thoriumsim.com/blog/2017/06/24/update-3.html">
+        </link>
+        <updated>2017-06-24T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Fixes for layout, decoding, sensors, assets, shields, sensor contacts, damage reports, and coolant.
+* Added thruster required rotation for manual thrusters on core.
+* Added Tractor beam card.
+* Released Alpha 1.
+* Completely rewrote the core layout]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 2 - Stretchy Screens]]></title>
+        <id>https://thoriumsim.com/blog/2017/06/17/update-2.html</id>
+        <link href="https://thoriumsim.com/blog/2017/06/17/update-2.html">
+        </link>
+        <updated>2017-06-17T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Finished the layout for 1024 wide layouts.
+* Fixed layout for Thrusters, Docking, Sensors, Targeting, Short Range Comm, etc.
+* Added tracking for which clients send mutations
+* Added hover to the sensors station contacts
+* Added ability to update c]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Update 1 - Chill out, man]]></title>
+        <id>https://thoriumsim.com/blog/2017/06/10/update-1.html</id>
+        <link href="https://thoriumsim.com/blog/2017/06/10/update-1.html">
+        </link>
+        <updated>2017-06-10T06:00:00Z</updated>
+        <summary type="html"><![CDATA[* Added a coolant tank system and card
+* Added coolant support for engines and phasers
+* Revamped the sensors to make it more performant and consistent. Finished a minimal feature set.
+* Added unit tests for half of the system classes
+* Started on a ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One Year of Thorium]]></title>
+        <id>https://thoriumsim.com/blog/2017/06/03/one-year.html</id>
+        <link href="https://thoriumsim.com/blog/2017/06/03/one-year.html">
+        </link>
+        <updated>2017-06-03T06:00:00Z</updated>
+        <summary type="html"><![CDATA[Here's a rundown of the progress which has been made from June 2016 to June 2017.
+
+* Set up the project with React, GraphQL, Webpack, Node, and a dependency pipeline
+* Event sourcing system with snapshot engine
+* Flight Management
+* Template simulato]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Birth of Thorium]]></title>
+        <id>https://thoriumsim.com/blog/2017/06/01/hello-world.html</id>
+        <link href="https://thoriumsim.com/blog/2017/06/01/hello-world.html">
+        </link>
+        <updated>2017-06-01T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<figure>
+  <img src="/posts/banner.png" alt="Banner" />
+</figure>
+
+Thorium as a project began in June of 2016. After the partial failure of [Flint](https://github.com/infinitedg/flint), I wanted to develop a set of controls that I could be proud of. ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Birth of Thorium]]></title>
+        <id>https://thoriumsim.com/blog/2016/03/11/blog-post.html</id>
+        <link href="https://thoriumsim.com/blog/2016/03/11/blog-post.html">
+        </link>
+        <updated>2016-03-11T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<figure>
+  <img src="/posts/banner.png" alt="Banner" />
+</figure>
+
+Thorium as a project began in June of 2016. After the partial failure of [Flint](https://github.com/infinitedg/flint), I wanted to develop a set of controls that I could be proud of. ]]></summary>
+        <author>
+            <name>Alex Anderson</name>
+            <uri>http://twitter.com/ralex1993</uri>
+        </author>
+    </entry>
+</feed>

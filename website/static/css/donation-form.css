@@ -1,0 +1,73 @@
+.button {
+  background-color: transparent;
+}
+.donation .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.donation .content {
+  flex: 2;
+  margin-right: 10%;
+}
+.donation .sidebar {
+  flex: 1;
+}
+.donation p {
+  line-height: 1.9;
+  font-size: 16px;
+  vertical-align: baseline;
+}
+.donation h1 {
+  margin: 30px 0;
+}
+
+.donation ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+.donation li {
+  margin-bottom: 10px;
+}
+
+.donation h2 {
+  font-size: 20px;
+  color: #B99BD8;
+}
+
+
+.personal {
+  color: #5fb79a;
+  border-color: #469d80;
+}
+.personal:hover {
+  background-color: #4eae8f;
+}
+.personal.active, .personal:active {
+  border-color: #82c7b0;
+  background-color: #3f8b72;
+}
+
+.educational {
+  color: #8f49ad;
+  border-color: #713a89;
+}
+.educational:hover {
+  background-color: #80419b;
+}
+.educational.active, .educational:active {
+  border-color: #a669c0;
+  background-color: #633277;
+}
+
+.commercial {
+  color: #4b6496;
+  border-color: #3a4d74;
+}
+.commercial:hover {
+  background-color: #435985;
+}
+.commercial.active, .commercial:active {
+  border-color: #637db1;
+  background-color: #324263;
+}

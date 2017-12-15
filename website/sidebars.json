@@ -1,0 +1,13 @@
+{
+  "docs": {
+    "Get Started": ["getting_started"],
+    "First Category": ["doc4"],
+    "Second Category": ["doc5"]
+  },
+  "mission_writing": {
+    "First Category": ["mission_writing"]
+  },
+  "developers": {
+    "Thing":["developers"]
+  }
+}
