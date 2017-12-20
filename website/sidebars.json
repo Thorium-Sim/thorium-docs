@@ -2,8 +2,8 @@
   "docs": {
     "Overview": ["overview", "glossary", "getting_started", "starting_flight"],
     "Clients": [],
-    "Cores": ["core_layouts"]
-
+    "Cores": ["core_layouts"],
+    "Viewscreens": ["tactical_maps"]
   },
   "mission_writing": {
     "Mission Writing": ["mission_writing"]
