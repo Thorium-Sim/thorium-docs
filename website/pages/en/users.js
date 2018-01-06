@@ -17,8 +17,8 @@ class Users extends React.Component {
     const showcase = siteConfig.users.map((user, i) => {
       return (
         <a href={user.infoLink} key={i}>
-          <img src={user.image} title={user.caption} />
-        </a>
+              <div style={{backgroundImage: `url(${user.image})`}} title={user.caption} alt={user.caption}/>
+              </a>
       );
     });
     const donors = siteConfig.donors.map((d, i) => {
@@ -33,7 +33,9 @@ class Users extends React.Component {
             <div className="users">
               <h2>Who's Using This?</h2>
               <br />
-              <p>We currently aren't aware of anyone using Thorium</p>
+              <div className="images">
+              {showcase}
+              </div>
               <br />
             <div className="logos">{showcase}</div>
             <p>Are you using this project? <a

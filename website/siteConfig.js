@@ -7,17 +7,18 @@
 
 /* List of projects/orgs using your project for the users page */
 const users = [
-  /*{
-    caption: 'User1',
-    image: '/test-site/img/thorium.svg',
-    infoLink: 'https://www.facebook.com',
+  {
+    caption: 'The Lion\'s Gate Center',
+    image: '/img/tlgc.jpg',
+    infoLink: 'https://thelionsgatecenter.com',
     pinned: true,
-  },*/
+  }
 ];
 
 const donors = [
   "Thomas Delclite 🇧🇪",
-  "Chuck Smith 🇺🇸"
+  "Chuck Smith 🇺🇸",
+  "The Lion's Gate Center 🇺🇸"
 ];
 
 const siteConfig = {

@@ -41,6 +41,10 @@ h1, .productShowcaseSection h2, .container .wrapper h2 {
 .container .wrapper h2 {
   font-size: 34px;
 }
+.productShowcaseSection .logos img {
+  width: 220px;
+  max-height: 220px;
+}
 .container.lightBackground {
   background-color: #444;
   color: #eee;
@@ -58,11 +62,29 @@ footer.nav-footer {
 @media only screen and (min-width: 1024px) {
   .sides div {
     flex: 1;
+    margin: 20px;
   }
   .sides .users {
     flex: 2;
   }
+  .sides .users .images {
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+  }
+  .sides .users .images a {
+    flex: 1;
+
+  }
+  .sides .users .images div {
+    min-width: 200px;
+    max-width: 400px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
+
 .rotating {
   perspective: 10000px;
   position: relative;

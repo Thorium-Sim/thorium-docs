@@ -224,7 +224,6 @@ class Index extends React.Component {
           </Container>
           <div className="productShowcaseSection paddingBottom">
             <h2>{"Who's Using This?"}</h2>
-            <p>Nobody is using Thorium yet. You could be the first!</p>
             <div className="logos">{showcase}</div>
             <div className="more-users">
               <a
