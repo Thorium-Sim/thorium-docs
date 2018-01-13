@@ -53,7 +53,7 @@ class Footer extends React.Component {
               }>
               User Showcase
             </a>
-            <a href="https://discord.gg/dxRusCc">Project Chat</a>
+            <a href="https://discord.gg/UvxTQZz">Project Chat</a>
             <a href="https://twitter.com/thoriumsim" target="_blank">
               Twitter
             </a>
