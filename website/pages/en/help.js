@@ -22,8 +22,8 @@ class Help extends React.Component {
         title: 'Browse Docs',
       },
       {
-        content: '[Ask questions about the documentation and project](https://discord.gg/dxRusCc)',
-        title: 'Join the community',
+        content: '[Ask questions about the documentation and project on Discord](https://discord.gg/UvxTQZz)',
+        title: 'Join the conversation',
       },
       {
         content: "[Find out what's new with this project](/blog)",
