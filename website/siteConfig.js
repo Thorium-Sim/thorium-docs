@@ -18,7 +18,8 @@ const users = [
 const donors = [
   "Thomas Delclite 🇧🇪",
   "Chuck Smith 🇺🇸",
-  "The Lion's Gate Center 🇺🇸"
+  "The Lion's Gate Center 🇺🇸",
+  "Brent Anderson 🇺🇸"
 ];
 
 const siteConfig = {
