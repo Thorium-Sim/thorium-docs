@@ -2,12 +2,12 @@
 id: glossary
 title: Glossary
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
-
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
-
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
-
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+- **Space Edventure**: An educationl adventure in a simulated spaceship environment.
+- **Flight Director**: The game master of the simulation. Flight Directors manage the back end of the controls, using them to tell the story. They are also in charge of the lighting, sound effects, voices, actors, and everything else involved in running the simulation.
+- **Crew**: The people flying the space ship on the bridge. They act out their role as a member of the crew of the spaceship. Crew members typically are split into several different stations, or jobs. Their goal is to complete the mission successfully.
+- **Simulator**: In the context of Thorium, the simulator is the computer representation of the ship which is flying. Simulators consist of systems, stations, decks, rooms, and crew.
+- **Station**: A station is a collection of screens which control the simulator. Stations are typically organized by function; engines and thrusters belong to the Flight Control station, weapons and shields belong to the Tactical station, etc.
+- **Client**: A client is a single computer running a station. To run Thorium, you must have at least one client for every station in the simulation, but you could have multiple clients running the same station on larger simulator sets.
+- **Set**: A set is the physical space where a simulation happens. It could be permanent and include a bridge, desks for the computers, a sickbay and engineering room, hallways, transporter doors, etc. Or it could be your living room and computers for every participant. There is no set definition of what your spaceship has to look like!
+- **Mission**: A mission is the set storyline which will be followed during a specific simulation. Missions follow a timeline of events, and can provide some level of automation for the Flight Director.

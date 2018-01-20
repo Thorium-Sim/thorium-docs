@@ -2,12 +2,15 @@
 id: overview
 title: Overview
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Thorium is a platform for running starship simulations. The computer controls simulate what the controls of a futuristic spaceship might be. These screens control the engines, weapons, sensors, communications, and a host of other things. 
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+Why would you want something like this? To do a simulated space mission — in space! These controls are part of a larger live-action roleplay experience which anyone can do in the comfort of their homes or at a Space Edventure center. A flight director controls the entire experience, acting like a game master for the other participants. It's like a movie in real life where you are the actors!  
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+Prior art includes [Empty Epsilon](http://daid.github.io/EmptyEpsilon/) and [Artemis](https://artemisspaceshipbridge.com), along with the host of other starship controls which have been developed in the past for brick-and-mortar Space Edventures centers.
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+## Space Edventures
+What is a Space Edventure? Whereas Empty Epsilon and Artemis focus on short, action-packed, entertaining simulations, Thorium is devoted to more methodical, educational, dramatic simulations. We certainly hope you'll have a fun time using Thorium, but its purpose is a little different:
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+- Give Flight Directors the tools they need to tell excellent stories and teach real principles.
+- Give creators a platform for making new missions, simulators, and experiences.
+- Give crews the opportunity to do hard things in a simulated environment.
