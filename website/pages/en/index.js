@@ -50,7 +50,7 @@ class HomeSplash extends React.Component {
               <div className="section promoSection">
                 <div className="promoRow">
                   <div className="pluginRowBlock">
-                    <Button href="/docs/getting_started.html">Get Started</Button>
+                    <Button href="/docs/overview.html">Get Started</Button>
                     <Button href="https://github.com/thorium-sim/thorium#getting-started">
                       Download
                     </Button>

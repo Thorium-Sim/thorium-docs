@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Overview": ["overview", "glossary", "getting_started", "starting_flight"],
+    "Overview": ["overview", "glossary", "getting_started", "starting_flight", "asset_config"],
     "Clients": [],
     "Cores": ["core_layouts"],
     "Viewscreens": ["tactical_maps"]

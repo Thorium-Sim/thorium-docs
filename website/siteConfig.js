@@ -29,7 +29,7 @@ const siteConfig = {
   baseUrl: '/' /* base url for your project */,
   projectName: 'thorium',
   headerLinks: [
-    {doc: 'getting_started', label: 'Get Started'},
+    {doc: 'overview', label: 'Get Started'},
     /*{doc: 'mission_writing', label: 'Missions'},
     {doc: 'developers', label: 'Devs'},*/
     {page: 'help', label: 'Help'},

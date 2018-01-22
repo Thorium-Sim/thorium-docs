@@ -2,12 +2,38 @@
 id: starting_flight
 title: Starting a Flight
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Thorium differentiates Flights from simulators. A flight represents a single, self-contained instance of a simulator. Flights can be paused, resumed, and removed entirely.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+![Welcome Screen](/docs/starting_flight_1.jpg)
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+![Flight Startup](/docs/starting_flight_2.jpg)
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+Creating a flight is simple:
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+1. Click the green 'New Flight' button.
+
+2. Change the name of the flight, if desired.
+
+3. Pick a simulator.
+
+4. Pick a station set for that simulator.
+
+5. Pick a mission for that simulator or click 'Skip'.
+
+6. Repeat 3 - 5 for any other simulators in the flight if you are doing a joint flight.
+
+7. Click 'Start Flight' to initialize the flight and simulators.
+
+## Assigning Clients to the Flight
+
+![Assigning Clients](/docs/starting_flight_3.jpg)
+
+To use the stations for a flight, you must assign clients to the flight and simulator. You can do this manually for each client by choosing the flight name from the first dropdown, the simulator from the second dropdown, and the station from the third dropdown.
+
+**Note:** *Clients that are already assigned to a flight will not appear on the client list for a different flight. Remove it from the other flight before assigning it to a new flight.*
+
+You can also configure the clients with a pre-defined set. This is done simply by clicking the name of the set from the list above. This conveniently re-names the simulator to be the same name as the set itself. 
+
+Once assigned to a station, the client will start up. You can click 'Go to Core' to access the core for this flight.
+
+If you selected multiple simulators, you'll be able to choose which simulator you want to access the core for.
