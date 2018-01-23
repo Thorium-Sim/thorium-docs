@@ -1,14 +1,83 @@
 {
   "docs": {
-    "Overview": ["overview", "glossary", "getting_started", "starting_flight", "asset_config"],
-    "Clients": [],
-    "Cores": ["core_layouts"],
+    "Overview": ["overview", "glossary", "getting_started", "starting_flight"],
+    "Cards": ["cards"],
+    "Config": ["asset_config"],
     "Viewscreens": ["tactical_maps"]
+  },
+  "cards": {
+    "Command": [
+      "card_alert_condition",
+      "card_library",
+      "card_login",
+      "card_officer_log",
+      "card_offline",
+      "card_self_destruct",
+      "card_status"
+    ],
+    "Communications": [
+      "card_code_cyphers",
+      "card_comm_decoding",
+      "card_comm_internal",
+      "card_comm_short_range",
+      "card_interception",
+      "card_long_range_comm",
+      "card_messages",
+      "card_signal_jammer"
+    ],
+    "Engineering": [
+      "card_coolant_control",
+      "card_damage_control",
+      "card_damage_teams",
+      "card_isochips"
+    ],
+    "Navigation": [
+      "card_docking",
+      "card_engine_control",
+      "card_navigation",
+      "card_navigation_advanced",
+      "card_thrusters"
+    ],
+    "Operations": [
+      "card_cargo_control",
+      "card_power_distribution",
+      "card_reactor_control",
+      "card_shuttles",
+      "card_tractor_beam",
+      "card_transporters"
+    ],
+    "Security": [
+      "card_security_decks",
+      "card_security_scans",
+      "card_security_teams"
+    ],
+    "Sensors": [
+      "card_probe_construction",
+      "card_probe_control",
+      "card_probe_network",
+      "card_sensor_scans",
+      "card_sensors"
+    ],
+    "Tactical": [
+      "card_exocomps",
+      "card_phaser_charging",
+      "card_shield_control",
+      "card_stealth_field",
+      "card_targeting",
+      "card_torpedo_loading"
+    ],
+    "Junior": [
+      "card_jr_comm",
+      "card_jr_engineering",
+      "card_jr_flight",
+      "card_jr_ops",
+      "card_jr_sensors"
+    ]
   },
   "mission_writing": {
     "Mission Writing": ["mission_writing"]
   },
   "developers": {
-    "Developers":["developers"]
+    "Developers": ["developers"]
   }
 }
