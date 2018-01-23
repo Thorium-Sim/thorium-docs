@@ -46,6 +46,10 @@ const siteConfig = {
     primaryColor: '#37203C',
     secondaryColor: '#544980',
   },
+  algolia: {
+    apiKey: "215cc1c55f0d508b47d27f3ae089c7e0",
+    indexName: "thoriumsim"
+  },
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:
     'Copyright © ' +
