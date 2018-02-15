@@ -15,19 +15,19 @@ When creating a damage report, Thorium follows these steps:
 
 4. Assemble a preliminary damage report. This is just a list of steps, not the actual text of the steps themselves. It uses the following logic to create this list:
 
-  1. If the system has power, the first step will always be to remove power from that system.
+    1. If the system has power, the first step will always be to remove power from that system.
 
-  2. Add in required damage steps. These steps are assigned to the simulator as a whole or added to the system specifically, both in the 'DamageReports' section of the 'Simulator Config' screen . These steps will be added regardless of the requested length of the report. *Note:* Requered damage steps are not filtered based on the capability of the simulator.
+    2. Add in required damage steps. These steps are assigned to the simulator as a whole or added to the system specifically, both in the 'DamageReports' section of the 'Simulator Config' screen . These steps will be added regardless of the requested length of the report. *Note:* Requered damage steps are not filtered based on the capability of the simulator.
 
-  3. Add in optional damage steps. These steps are randomly assigned from the available damage report steps until a) the report reaches it's requested length or b) all of the steps have been used.
+    3. Add in optional damage steps. These steps are randomly assigned from the available damage report steps until a) the report reaches it's requested length or b) all of the steps have been used.
 
-  4. Some damage report steps are labeled to be put at the end of the report. Those damage steps are included at this point.
+    4. Some damage report steps are labeled to be put at the end of the report. Those damage steps are included at this point.
 
-  5. Any damage teams that have not been recalled at this point will be recalled. This step reads like 'Wait until the *such and such* damage team finishes their work'.
+    5. Any damage teams that have not been recalled at this point will be recalled. This step reads like 'Wait until the *such and such* damage team finishes their work'.
 
-  6. If the system has power, it will add a step to restore power to the system.
+    6. If the system has power, it will add a step to restore power to the system.
 
-  7. A finisher step is added at the end. This step currently always includes a reactivation code.
+    7. A finisher step is added at the end. This step currently always includes a reactivation code.
 
 5. Once the steps are assembled, the report goes through a giant function that replaces the damage report steps with the text of that step. The text is randomly generated with from several lists of possible values. This will hopefully ensure no two reports are the same.
   - *Note:* Systems can be assigned to rooms on the ship. This will affect the damage report output. For example, internal calls will be directed to that room.

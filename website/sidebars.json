@@ -2,7 +2,7 @@
   "docs": {
     "Overview": ["overview", "glossary", "getting_started", "starting_flight"],
     "Cards": ["cards"],
-    "Config": ["asset_config"],
+    "Config": ["asset_config", "damage_reports_config"],
     "Viewscreens": ["tactical_maps"]
   },
   "cards": {
