@@ -5,7 +5,7 @@
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 .homeSplashFade img {
   width: 10vw;
@@ -16,27 +16,35 @@
   background-position: center;
   min-height: 90vh;
 }
-.homeSplashFade h2, .homeSplashFade a.button {
+.homeSplashFade h2,
+.homeSplashFade a.button {
   color: #eee;
   border-color: #eee;
-  text-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .homeSplashFade a.button {
   font-size: 28px;
   border-width: 2px;
-  text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.5), inset 3px 3px 5px rgba(0,0,0,0.5);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
-body, .mainContainer, .productShowcaseSection, .container {
+body,
+.mainContainer,
+.productShowcaseSection,
+.container {
   background-color: #333;
   color: #ddd;
 }
-a, .button {
-  color: #B99BD8;
-  border-color: #B99BD8;
+a,
+.button {
+  color: #b99bd8;
+  border-color: #b99bd8;
 }
-h1, .productShowcaseSection h2, .container .wrapper h2 {
-  color: #B99BD8;
+h1,
+.productShowcaseSection h2,
+.container .wrapper h2 {
+  color: #b99bd8;
 }
 .container .wrapper h2 {
   font-size: 34px;
@@ -74,7 +82,6 @@ footer.nav-footer {
   }
   .sides .users .images a {
     flex: 1;
-
   }
   .sides .users .images div {
     min-width: 200px;
@@ -92,23 +99,29 @@ footer.nav-footer {
 }
 
 @keyframes apple {
-  from {  transform: rotateY(0deg) translateZ(100px);
+  from {
+    transform: rotateY(0deg) translateZ(100px);
   }
-  to {  transform: rotateY(360deg) translateZ(100px);
+  to {
+    transform: rotateY(360deg) translateZ(100px);
   }
 }
 
 @keyframes windows {
-  from {  transform: rotateY(-120deg) translateZ(100px);
+  from {
+    transform: rotateY(-120deg) translateZ(100px);
   }
-  to {  transform: rotateY(240deg) translateZ(100px);
+  to {
+    transform: rotateY(240deg) translateZ(100px);
   }
 }
 
 @keyframes linux {
-  from {  transform: rotateY(120deg) translateZ(100px);
+  from {
+    transform: rotateY(120deg) translateZ(100px);
   }
-  to {  transform: rotateY(480deg) translateZ(100px);
+  to {
+    transform: rotateY(480deg) translateZ(100px);
   }
 }
 .sizeBlock {
@@ -119,13 +132,15 @@ footer.nav-footer {
 .rotating img {
   width: 300px;
   position: absolute;
-  transform-style: preserve-3d;  
+  transform-style: preserve-3d;
 }
-.rotating .apple, .rotating .windows, .rotating .linux {
+.rotating .apple,
+.rotating .windows,
+.rotating .linux {
   backface-visibility: hidden;
   animation-duration: 8s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;  
+  animation-timing-function: linear;
 }
 .rotating .apple {
   animation-name: apple;
@@ -136,9 +151,17 @@ footer.nav-footer {
 .rotating .linux {
   animation-name: linux;
 }
-.imageAlignSide .blockImage{
+.imageAlignSide .blockImage {
   max-width: 300px;
   flex: 0 1 300px;
+}
+.navPusher {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 50px);
+}
+.docMainWrapper {
+  flex: 1;
 }
 @media only screen and (max-width: 1023px) {
 }
@@ -148,4 +171,3 @@ footer.nav-footer {
 
 @media only screen and (min-width: 1500px) {
 }
-

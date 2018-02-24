@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-const React = require('react');
+const React = require("react");
 
 class Footer extends React.Component {
   render() {
@@ -23,25 +23,13 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a
-              href={
-                this.props.config.baseUrl +
-                'docs/getting_started.html'
-              }>
+            <a href={this.props.config.baseUrl + "docs/getting_started.html"}>
               Getting Started
             </a>
-            <a
-              href={
-                this.props.config.baseUrl +
-                'docs/mission_writing.html'
-              }>
+            <a href={this.props.config.baseUrl + "docs/mission_writing.html"}>
               Mission Writing
             </a>
-            <a
-              href={
-                this.props.config.baseUrl +
-                'docs/developers.html'
-              }>
+            <a href={this.props.config.baseUrl + "docs/developers.html"}>
               Developers
             </a>
           </div>
@@ -49,8 +37,9 @@ class Footer extends React.Component {
             <h5>Community</h5>
             <a
               href={
-                this.props.config.baseUrl + this.props.language + '/users.html'
-              }>
+                this.props.config.baseUrl + this.props.language + "users.html"
+              }
+            >
               User Showcase
             </a>
             <a href="https://discord.gg/UvxTQZz">Project Chat</a>
@@ -60,7 +49,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href={this.props.config.baseUrl + 'blog'}>Blog</a>
+            <a href={this.props.config.baseUrl + "blog"}>Blog</a>
             <a href="https://github.com/thorium-sim/thorium">GitHub</a>
             <a
               className="github-button"
@@ -69,7 +58,8 @@ class Footer extends React.Component {
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count={true}
               data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
+              aria-label="Star this project on GitHub"
+            >
               Star
             </a>
           </div>
@@ -78,9 +68,10 @@ class Footer extends React.Component {
         <a
           href="https://fyreworks.us/"
           target="_blank"
-          className="fbOpenSource">
+          className="fbOpenSource"
+        >
           <img
-            src={this.props.config.baseUrl + 'img/oss_logo.svg'}
+            src={this.props.config.baseUrl + "img/oss_logo.svg"}
             alt="Fyreworks"
             width="170"
             height="45"
