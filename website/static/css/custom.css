@@ -155,14 +155,14 @@ footer.nav-footer {
   max-width: 300px;
   flex: 0 1 300px;
 }
-.navPusher {
+/*.navPusher {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 50px);
 }
 .docMainWrapper {
   flex: 1;
-}
+}*/
 @media only screen and (max-width: 1023px) {
 }
 
