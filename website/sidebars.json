@@ -1,6 +1,17 @@
 {
   "docs": {
     "Overview": ["overview", "glossary", "getting_started", "starting_flight"],
+    "Cores": [
+      "core_layouts",
+      "core_next",
+      "core_dynamic",
+      "core_default",
+      "core_iifx",
+      "core_jr",
+      "core_viewscreen",
+      "core_tactical_maps",
+      "core_messages"
+    ],
     "Cards": ["cards"],
     "Config": ["asset_config", "damage_reports_config"],
     "Viewscreens": ["tactical_maps"]

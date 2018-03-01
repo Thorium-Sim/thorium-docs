@@ -2,12 +2,101 @@
 id: core_layouts
 title: Core Layouts
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-Duis et egestas libero, imperdiet faucibus ipsum. Sed posuere eget urna vel feugiat. Vivamus a arcu sagittis, fermentum urna dapibus, congue lectus. Fusce vulputate porttitor nisl, ac cursus elit volutpat vitae. Nullam vitae ipsum egestas, convallis quam non, porta nibh. Morbi gravida erat nec neque bibendum, eu pellentesque velit posuere. Fusce aliquam erat eu massa eleifend tristique.
+Thorium supports the ability to switch between multiple core layouts. This
+allows the flight director to easily pull up the most pertinent information
+without sacrificing screen space. Core layouts are built into Thorium and new
+layouts must be added in code. If you want a new core layout,
+[file an issue](https://github.com/Thorium-Sim/thorium/issues/new).
 
-Sed consequat sollicitudin ipsum eget tempus. Integer a aliquet velit. In justo nibh, pellentesque non suscipit eget, gravida vel lacus. Donec odio ante, malesuada in massa quis, pharetra tristique ligula. Donec eros est, tristique eget finibus quis, semper non nisl. Vivamus et elit nec enim ornare placerat. Sed posuere odio a elit cursus sagittis.
+## Core Header
 
-Phasellus feugiat purus eu tortor ultrices finibus. Ut libero nibh, lobortis et libero nec, dapibus posuere eros. Sed sagittis euismod justo at consectetur. Nulla finibus libero placerat, cursus sapien at, eleifend ligula. Vivamus elit nisl, hendrerit ac nibh eu, ultrices tempus dui. Nam tellus neque, commodo non rhoncus eu, gravida in risus. Nullam id iaculis tortor.
+![Header](/docs/core_layouts_1.jpg)
 
-Nullam at odio in sem varius tempor sit amet vel lorem. Etiam eu hendrerit nisl. Fusce nibh mauris, vulputate sit amet ex vitae, congue rhoncus nisl. Sed eget tellus purus. Nullam tempus commodo erat ut tristique. Cras accumsan massa sit amet justo consequat eleifend. Integer scelerisque vitae tellus id consectetur.
+Every core layout has a header with the following controls:
+
+1. **<- Client Config** - Return to the client config screen.
+2. **Simulator Selector** - Choose a simulator from the flight. This allows you
+   to switch between which simulator is being controlled by the core.
+3. **Layout Selector** - Switch between the different core layouts.
+4. **Mosaic Layout Selector** - Only appears on Dynamic or Next layout. This
+   lets you save a dynamic layout to the server and reload previously saved
+   dynamic layouts.
+5. **Bug Report/Issue Tracker** - Use this to file a bug report or feature
+   request.
+6. **Notifications** - Choose if notifications appear on the core screen.
+7. **Speech** - Choose if notifications are spoken.
+8. **Clear Notifications** - Clears any notifications on the screen.
+
+## Layouts
+
+* [Next](#)
+* [Default](#)
+* [IIFX](#)
+* [Dynamic](#)
+* [Jr](#)
+* [Viewscreen](#)
+* [Tactical Maps](#)
+* [Panels](#)
+* [Messages](#)
+
+## Function Key Popups
+
+You can access any core component from any core layout with function keys. Press
+and hold the key to view the core components related to that key. Double press
+the key to have the core components stay on the screen. Press again to make them
+go away.
+
+* **F1** - Generic Components
+  * Actions
+  * Extras
+  * Remote
+  * Messaging
+  * Clients
+* **F2** - Ship Components
+  * Ship
+  * Decks
+  * Cargo
+  * Crew
+  * Heat
+  * Self Destruct
+* **F3** - Flight
+  * Engine Control
+  * Thruster
+  * Navigation
+  * Docking
+* **F4** - Weapons
+  * Targeting
+  * Phaser
+  * Torpedo
+  * Shield Control
+* **F5** - Damage
+  * Systems
+  * Damage Reports
+  * Damage Teams
+* **F6** - Sensors
+  * Sensors Grid
+  * Sensors
+  * Probe Control
+  * Probe Network
+* **F7** - Comm
+  * Short Range Comm
+  * Decoding
+  * Long Range Comm
+  * Internal Comm
+  * Signal Jammer
+  * Code Cyphers
+  * Interception
+  * Short Range Signals
+* **F8** - Engineer
+  * Reactor Control
+  * Exocomps
+* **F9** - Security
+  * Security Decks
+  * Security Teams
+  * Crew
+* **F10** - Operations
+  * Transporter
+  * Stealth Field
+  * Tractor Beam
+  * Shuttles
