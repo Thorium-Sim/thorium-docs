@@ -37,7 +37,7 @@ class Footer extends React.Component {
             <h5>Community</h5>
             <a
               href={
-                this.props.config.baseUrl + this.props.language + "users.html"
+                this.props.config.baseUrl + this.props.language + "/users.html"
               }
             >
               User Showcase
