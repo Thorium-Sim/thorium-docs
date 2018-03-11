@@ -17,6 +17,8 @@ Use the countdown fields to input the number of hours, minutes, and seconds befo
 
 ## Self-Destruct Core
 
+![Self-Destruct Core](docs/core_selfDestruct.jpg)
+
 The "Auto" check-box sets the ship to automatically black-out all screens when the self-destruct countdown reaches zero.
 
 The yellow "Code" box is not yet fully implemented--watch for that new feature coming soon!
