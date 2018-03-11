@@ -11,14 +11,14 @@ The engine control card is used to fire up the engines in the ship and begin mov
 
 ## Impulse Engines
 
-Impulse engines operate at speeds slower than the speed of light. The default setting is to have 5 speeds, ranging from 0.25 impulse speed to 1.25 impulse speed, with the upper extreme (1.25) considered a Destructive Impulse speed.. Additional speeds may be configured when necessary. The speed of the ship may be set in two ways:
+Impulse engines operate at speeds slower than the speed of light. The default setting is to have 5 speeds, ranging from 0.25 impulse speed to 1.25 impulse speed, with the upper extreme (1.25) considered a Destructive Impulse speed. Additional speeds may be configured when necessary. The speed of the ship may be set in two ways:
 
 1) By clicking on the speed setting or the box below it in the upper half of the screen, or
 2) By clicking on the gray button with the name of the speed setting.
 
 The yellow bar below the list of speeds indicates the ship's current speed setting. The green bar indicates the level of power in the system; the speed of the ship cannot be set to a higher setting than the allocated power; in other words, the yellow bar will never exceed the green bar in length. Power allocation is set on the Power Distribution card, and will not be explained in detail here.
 
-The heat bar represents the temperature of the impulse engines, which must be monitored for a successful flight. The red bar will rise based on the speed of the impulse engines. The heat level can be reduced by clicking the "Coolant" button to flush the system with coolant. The blue bar, representing the level of coolant allocated to the impulse engine system, will decrease proportionately. If the coolant is depleted, additional coolant can be allocated to the Impulse Engines system on the [Coolant Control](#) card.
+The heat bar represents the temperature of the impulse engines, which must be monitored for a successful flight. The red bar will rise based on the speed of the impulse engines. The heat level can be reduced by clicking the "Coolant" button to flush the system with coolant. The blue bar, representing the level of coolant allocated to the impulse engine system, will decrease proportionately. If the coolant is depleted, additional coolant can be allocated to the Impulse Engines system on the [Coolant Control](/docs/card_coolant_control.html) card.
 
 ## Warp Engines
 
