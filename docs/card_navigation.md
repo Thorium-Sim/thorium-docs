@@ -5,7 +5,7 @@ title:Navigation
 
 ## Overview
 
-The navigation screen uses advanced technology to calculate course coordinates and set course for unlimited interstellar destinations. Based on configurations in the Navigation Core, course coordinates can be given either as XYZ values or as thruster coordinates which must be set using the [Thrusters card](#). Additionally, configuration in the Navigation Core may erase the "Calculate Course" options, in which case the coordinates may be retreived from various other sources, such as the [Sensors Scan card](#), and entered on the Navigation card.
+The navigation screen uses advanced technology to calculate course coordinates and set course for unlimited interstellar destinations. Based on configurations in the Navigation Core, course coordinates can be given either as XYZ values or as thruster coordinates which must be set using the [Thrusters card](/docs/card_thrusters.html). Additionally, configuration in the Navigation Core may erase the "Calculate Course" options, in which case the coordinates may be retreived from various other sources, such as the [Sensors Scan card](/docs/card_sensors_scans.html), and entered on the Navigation card.
 
 ![Navigation](/docs/card_navigation.jpg)
 
@@ -31,7 +31,7 @@ The Navigation Core features a few options to configure the flight experience, a
 
 Checking the "Calculate" checkbox retains the functionality to both calculate and set the ship's course on the Navigation card. Unchecking this box simplifies the Navigation card to simply include the "Current Course" fields, which can be used to enter coordinates obtained from other sources. 
 
-Checking the "Thrusters" checkbox changes the calculated coordinates from the default XYZ coordinates to Thruster coordinates, which are used to redirect the ship on the [Thrusters card](#). Using this setting removes the "Current Course" section from the Navigation card altogether.
+Checking the "Thrusters" checkbox changes the calculated coordinates from the default XYZ coordinates to Thruster coordinates, which are used to redirect the ship on the [Thrusters card](/docs/card_thrusters.html). Using this setting removes the "Current Course" section from the Navigation card altogether.
 
 ### Current and Calculated Coordinates Read-out
 
@@ -46,4 +46,4 @@ The course coordinates can be inputted into the "New" fields four ways:
 
 To send the "New" coordinates to the crew's Navigation screen, click "Send." If the desired destination is unknown or out-of-bounds for the mission, use the "Unknown" button and then click "Send" to send the "No Course Available" message.
 
-Additional Navigation options are available by using the [Advanced Navigation card](#).
+Additional Navigation options are available by using the [Advanced Navigation card](/docs/card_navigation_advanced.html).
