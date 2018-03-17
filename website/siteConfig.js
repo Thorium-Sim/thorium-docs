@@ -12,6 +12,18 @@ const users = [
     image: "/img/tlgc.jpg",
     infoLink: "https://thelionsgatecenter.com",
     pinned: true
+  },
+  {
+    caption: "Farpoint Space Center",
+    image: "/img/farpoint.png",
+    infoLink: "https://farpointcadets.weebly.com",
+    pinned: true
+  },
+  {
+    caption: "Christa McAuliffe Space Education Center",
+    image: "/img/cmsec.png",
+    infoLink: "https://spacecenter.alpineschools.org",
+    pinned: true
   }
 ];
 
@@ -21,7 +33,8 @@ const donors = [
   "The Lion's Gate Center 🇺🇸",
   "Brent Anderson 🇺🇸",
   "Maeson Busk 🇺🇸",
-  "The Christa McAuliffe Space Education Center 🛰"
+  "The Christa McAuliffe Space Education Center 🛰",
+  "Victor Williamson 👽"
 ];
 
 const siteConfig = {
