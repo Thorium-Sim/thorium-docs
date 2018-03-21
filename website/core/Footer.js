@@ -35,11 +35,7 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Community</h5>
-            <a
-              href={
-                this.props.config.baseUrl + this.props.language + "/users.html"
-              }
-            >
+            <a href={this.props.config.baseUrl + "en/users.html"}>
               User Showcase
             </a>
             <a href="https://discord.gg/UvxTQZz">Project Chat</a>

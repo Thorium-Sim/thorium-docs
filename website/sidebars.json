@@ -13,7 +13,7 @@
       "core_messages"
     ],
     "Cards": ["cards"],
-    "Config": ["asset_config", "damage_reports_config"],
+    "Config": ["asset_config", "damage_reports_config", "client", "sets"],
     "Viewscreens": ["tactical_maps"]
   },
   "cards": {
@@ -89,6 +89,11 @@
     "Mission Writing": ["mission_writing"]
   },
   "developers": {
-    "Developers": ["developers"]
+    "Developers": [
+      "developers",
+      "developers_backend",
+      "developers_card",
+      "developers_core"
+    ]
   }
 }
