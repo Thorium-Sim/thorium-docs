@@ -36,6 +36,9 @@ body,
   background-color: #333;
   color: #ddd;
 }
+.container .wrapper h3 {
+  color: #b99bd8;
+}
 a,
 .button {
   color: #b99bd8;

@@ -93,6 +93,26 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
+          <Container padding={["bottom", "top"]} background="light" id="try">
+            <GridBlock
+              contents={[
+                {
+                  content: `Thorium is a platform for running starship bridge simulations.
+                  Participants are given roles on the ship, like weapons officer, navigator, or captain.
+                  Each role comes with its own computer station and responsibilities.
+                  The crew can use the Thorium controls to direct the ship wherever they want in their space mission.
+                  A flight director sits behind the scenes to act as a game master, controling what happens inside the simulation.
+<br /><a class="button" href="/docs/overview.html">
+                  Learn more
+                </a>`,
+                  image: siteConfig.baseUrl + "img/ship.png",
+                  imageAlign: "left",
+                  title: "What is Thorium?"
+                }
+              ]}
+            />
+          </Container>
+
           <Container padding={["bottom", "top"]}>
             <div className="gridBlock">
               <div className="blockElement imageAlignSide twoByGridBlock">
@@ -135,19 +155,6 @@ class Index extends React.Component {
             </div>
           </Container>
 
-          <Container padding={["bottom", "top"]} background="light" id="try">
-            <GridBlock
-              contents={[
-                {
-                  content: `Not comfortable running the mission by yourself? Thorium comes bundled with pre-written missions that remove the endless button clicking and lets you focus on what matters - telling a great story. It also features a built-in mission editor, allowing you to write your own missions.`,
-                  image: siteConfig.baseUrl + "img/code-branch.svg",
-                  imageAlign: "left",
-                  title: "Mission Timelines"
-                }
-              ]}
-            />
-          </Container>
-
           <Container padding={["bottom", "top"]} background="dark">
             <GridBlock
               contents={[
@@ -155,8 +162,21 @@ class Index extends React.Component {
                   content:
                     "Want to run a small shuttle? Done. Capital Class Carrier? You've got it. Any kind of ship you can imagine is possible. Use one of the pre-built simulator configurations or make your own!",
                   image: siteConfig.baseUrl + "img/cogs.svg",
-                  imageAlign: "right",
+                  imageAlign: "left",
                   title: "Flexible Simulator Configs"
+                }
+              ]}
+            />
+          </Container>
+
+          <Container padding={["bottom", "top"]} background="light" id="try">
+            <GridBlock
+              contents={[
+                {
+                  content: `Not comfortable running the mission by yourself? Thorium comes bundled with pre-written missions that remove the endless button clicking and lets you focus on what matters - telling a great story. It also features a built-in mission editor, allowing you to write your own missions.`,
+                  image: siteConfig.baseUrl + "img/code-branch.svg",
+                  imageAlign: "right",
+                  title: "Mission Timelines"
                 }
               ]}
             />
@@ -189,12 +209,10 @@ class Index extends React.Component {
             />
           </Container>
           <Container padding={["bottom", "top"]} background="light">
-          <div className="gridBlock">
+            <div className="gridBlock">
               <div className="blockElement imageAlignSide twoByGridBlock">
-              <div className="blockImage">
-                    <img
-                      src={siteConfig.baseUrl + "img/code.svg"}
-                    />
+                <div className="blockImage">
+                  <img src={siteConfig.baseUrl + "img/code.svg"} />
                 </div>
                 <div className="blockContent">
                   <h2>
@@ -207,20 +225,21 @@ class Index extends React.Component {
                   <div>
                     <span>
                       <p>
-                      Do you sling divs? Got code chops? All of the code is available, so you can see how it works under the hood and even add your own features.
-                      </p>            <a
-                className="button"
-                href="https://github.com/thorium-sim/thorium"
-              >
-                Check it out
-              </a>
+                        Do you sling divs? Got code chops? All of the code is
+                        available, so you can see how it works under the hood
+                        and even add your own features.
+                      </p>{" "}
+                      <a
+                        className="button"
+                        href="https://github.com/thorium-sim/thorium"
+                      >
+                        Check it out
+                      </a>
                     </span>
                   </div>
                 </div>
-    
               </div>
             </div>
-
           </Container>
           <div className="productShowcaseSection paddingBottom">
             <h2>{"Who's Using This?"}</h2>
