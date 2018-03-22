@@ -1,6 +1,12 @@
 {
   "docs": {
     "Overview": ["overview", "glossary", "getting_started", "starting_flight"],
+    "Flight Directing": [
+      "flight_directing",
+      "fd_briefing",
+      "fd_training",
+      "fd_acting"
+    ],
     "Cores": [
       "core_layouts",
       "core_next",
