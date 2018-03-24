@@ -8,6 +8,7 @@
       "fd_acting"
     ],
     "Cores": [
+      "core_overview",
       "core_layouts",
       "core_next",
       "core_dynamic",
