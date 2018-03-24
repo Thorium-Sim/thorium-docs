@@ -5,7 +5,13 @@
       "flight_directing",
       "fd_briefing",
       "fd_training",
-      "fd_acting"
+      "fd_acting",
+      "fd_starting_mission",
+      "fd_mission",
+      "fd_battles",
+      "fd_death",
+      "fd_away_missions",
+      "fd_mission_complete"
     ],
     "Cores": [
       "core_overview",
