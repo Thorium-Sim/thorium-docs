@@ -8,6 +8,7 @@
 const React = require("react");
 
 class Footer extends React.Component {
+  componentDidMount = () => {};
   render() {
     const currentYear = new Date().getFullYear();
     return (
@@ -76,6 +77,14 @@ class Footer extends React.Component {
         <section className="copyright">
           Copyright &copy; {currentYear} Fyreworks LLC.
         </section>
+        <script
+          src="https://crate.widgetbot.io/v2"
+          defer
+          async
+          onLoad={this.loaded}
+          data-cfasync="false"
+        />
+        <script src="/scripts/crate.js" />
       </footer>
     );
   }
