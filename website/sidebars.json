@@ -26,7 +26,13 @@
       "core_messages"
     ],
     "Cards": ["cards"],
-    "Config": ["asset_config", "damage_reports_config", "client", "sets"],
+    "Config": [
+      "asset_config",
+      "damage_reports_config",
+      "client",
+      "sets",
+      "keyboards"
+    ],
     "Viewscreens": ["tactical_maps"]
   },
   "cards": {
