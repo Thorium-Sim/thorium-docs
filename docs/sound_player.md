@@ -1,6 +1,6 @@
 ---
-id: starting_flight
-title: Starting a Flight
+id: sound_player
+title: Sound Player
 ---
 
 Thorium has a special client station called a sound player. This is a station
