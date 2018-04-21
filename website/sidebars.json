@@ -31,7 +31,8 @@
       "damage_reports_config",
       "client",
       "sets",
-      "keyboards"
+      "keyboards",
+      "sound_player"
     ],
     "Viewscreens": ["tactical_maps"]
   },
