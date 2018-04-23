@@ -24,6 +24,12 @@ const users = [
     image: "/img/cmsec.png",
     infoLink: "https://spacecenter.alpineschools.org",
     pinned: true
+  },
+  {
+    caption: "Telos Discovery Space Center",
+    image: "/img/tdsc.png",
+    infoLink: "https://discoveryspacecenter.com",
+    pinned: true
   }
 ];
 
@@ -34,7 +40,8 @@ const donors = [
   "Brent Anderson 🇺🇸",
   "Maeson Busk 🇺🇸",
   "The Christa McAuliffe Space Education Center 🛰",
-  "Victor Williamson 👽"
+  "Victor Williamson 👽",
+  "The Telos Discovery Space Center 🌌"
 ];
 
 const siteConfig = {
