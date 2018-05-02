@@ -32,9 +32,26 @@
       "client",
       "sets",
       "keyboards",
-      "sound_player"
+      "sound_player",
+      "simulator_config"
     ],
     "Viewscreens": ["tactical_maps"]
+  },
+  "simulator_config": {
+    "Simulator Config": [
+      "simulator_config_overview",
+      "simulator_config_main",
+      "simulator_config_stations",
+      "simulator_config_decks",
+      "simulator_config_systems",
+      "simulator_config_inventory",
+      "simulator_config_crew",
+      "simulator_config_assets",
+      "simulator_config_docking",
+      "simulator_config_damage",
+      "simulator_config_library",
+      "simulator_config_panels"
+    ]
   },
   "cards": {
     "Command": [
