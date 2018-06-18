@@ -51,7 +51,13 @@ class HomeSplash extends React.Component {
                 <div className="promoRow">
                   <div className="pluginRowBlock">
                     <Button href="/docs/overview.html">Get Started</Button>
-                    <Button href="https://github.com/thorium-sim/thorium#getting-started">
+                    <Button
+                      href={
+                        siteConfig.baseUrl +
+                        this.props.language +
+                        "/donate.html"
+                      }
+                    >
                       Download
                     </Button>
                     <Button
