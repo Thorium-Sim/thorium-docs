@@ -120,6 +120,7 @@
       "card_targeting",
       "card_torpedo_loading"
     ],
+    "Hypercards": ["card_thx", "card_survey_forms"],
     "Junior": [
       "card_jr_comm",
       "card_jr_engineering",

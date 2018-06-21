@@ -80,6 +80,15 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: "default"
   },
+  cleanUrl: true,
+  gaTrackingId: "UA-121191437-1",
+  gaGtag: true,
+  ogImage: "img/ogImage.jpg",
+  scrollToTop: true,
+  twitter: "true",
+  twitterUsername: "thoriumsim",
+  twitterImage: "img/ogImage.jpg",
+  editUrl: "https://github.com/thorium-sim/thorium-docs/edit/master/docs/",
   scripts: ["https://buttons.github.io/buttons.js"],
   // You may provide arbitrary config keys to be used as needed by your template.
   repoUrl: "https://github.com/thorium-sim/thorium"

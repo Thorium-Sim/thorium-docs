@@ -64,6 +64,18 @@ h1,
   background-color: #222;
 }
 
+nav.toc .toggleNav .navGroup h3 {
+  color: #aaa;
+}
+nav.toc .toggleNav ul li a {
+  color: #999;
+}
+nav.toc .toggleNav ul li a:hover {
+  color: #b99bd8;
+}
+nav.toc .toggleNav ul li a.navItemActive {
+  color: #b99bd8;
+}
 footer.nav-footer {
   background-color: #111;
 }
