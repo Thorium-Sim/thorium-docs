@@ -77,13 +77,7 @@ class Footer extends React.Component {
         <section className="copyright">
           Copyright &copy; {currentYear} Fyreworks LLC.
         </section>
-        <script
-          src="https://crate.widgetbot.io/v2"
-          defer
-          async
-          onLoad={this.loaded}
-          data-cfasync="false"
-        />
+        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async />
         <script src="/scripts/crate.js" />
       </footer>
     );
