@@ -26,7 +26,9 @@ The main sensor grid card has three main features:
     This information is relayed to the sensors officer to alert them to things
     that aren't apparent from the sensors grid alone. For the Flight Director,
     this box is used as a secondary way to relay story-centric information other
-    than through a character, like the main computer or chief engineer.
+    than through a character, like the main computer or chief engineer. _For
+    information on sending processed data, refer to the
+    [Sensor Scans core](/docs/card_sensor_scans)._
 
 The sensors grid card also supports an alternate layout. This layout only
 appears when a) the 'Sensor Scans' card is not present on the station and b) the
