@@ -69,7 +69,7 @@ Red scans indicate scans which have been cancelled. Green scans indicate that
 the scan has been answered. Previous scans can be referenced after the fact.
 Clicking the 'New Scan' button will initiate a new scan.
 
-![History Mode Core](/docs/core_sensor_scans1.jpg)
+![History Mode Core](/docs/core_sensor_scans_1.jpg)
 
 History mode on the core also has a sidebar of previous and current scans on the
 left with the same color-coding as the card. Clicking on a scan allows the
